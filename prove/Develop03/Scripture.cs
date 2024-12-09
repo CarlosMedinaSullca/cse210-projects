@@ -61,9 +61,13 @@ public class Scripture
         // Joining the elements of the words list with a space separator
         string result = string.Join(" ", words);
 
-        Console.WriteLine(_reference.GetDisplayText());
+        // Console.WriteLine(_reference.GetDisplayText());
 
-        return  result;
+        string displayRef = $"{_reference.GetDisplayText() }";
+
+        string displayText = displayRef + " " + result;
+
+        return  displayText;
 
     }
     public bool IsCompletelyHidden()
