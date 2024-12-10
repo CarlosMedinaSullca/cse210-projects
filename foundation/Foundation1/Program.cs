@@ -5,8 +5,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Foundation1 World!");
-
         Video v1 = new Video();
         v1._title = "A beautiful day";
         v1._author = "Pablo Perez";
