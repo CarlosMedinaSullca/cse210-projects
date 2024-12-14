@@ -89,12 +89,12 @@ class Program
         {
             if (reflection == 1)
             {
-                Console.WriteLine($"You have went through breathing activity {reflection} time.");
+                Console.WriteLine($"You have went through reflecting activity {reflection} time.");
 
             }
             else
             {
-                Console.WriteLine($"You have went through breathing activity {reflection} times.");
+                Console.WriteLine($"You have went through reflecting activity {reflection} times.");
 
             }
             
@@ -104,12 +104,12 @@ class Program
         {
             if (listing == 1)
             {
-                Console.WriteLine($"You have went through breathing activity {listing} time.");
+                Console.WriteLine($"You have went through listing activity {listing} time.");
 
             }
             else
             {
-                Console.WriteLine($"You have went through breathing activity {listing} times.");
+                Console.WriteLine($"You have went through listing activity {listing} times.");
 
             }
             
